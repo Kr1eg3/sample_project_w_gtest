@@ -1,13 +1,8 @@
 #include <iostream>
-#include <opencv2/core.hpp>
-
 #include "SampleClass.h"
 
-using namespace cv;
-
-int main() {
-    Mat mat;
-
+int main()
+{    
     auto *sample = new SampleClass;
     delete sample;
 
